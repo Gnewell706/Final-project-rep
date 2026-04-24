@@ -65,15 +65,5 @@ public class Scene4Controller {
       personalizedPlanChart.getData().add(new PieChart.Data("Leisure(Target)", model.getRecLeisure()));
    }
    
-   // @FXML
-//     void BackHandler(ActionEvent event) throws IOException
-//    {
-//       FXMLLoader loader = new FXMLLoader(getClass().getResource("Scene3.fxml"));
-//       Parent parent = loader.load();
-//       Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-//       window.setScene(new Scene(parent));
-//       window.show();
-//    }
-// 
    
 }
