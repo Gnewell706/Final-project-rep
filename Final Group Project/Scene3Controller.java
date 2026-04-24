@@ -120,19 +120,5 @@ public class Scene3Controller {
       dashboardPieChart.getData().add(new PieChart.Data("Exercise", exerciseH));
       dashboardPieChart.getData().add(new PieChart.Data("Leisure", leisureH));
    }
-   // @FXML
-//     void BackHandler(ActionEvent event) throws IOException
-//    {
-//       FXMLLoader loader = new FXMLLoader(getClass().getResource("Scene2.fxml"));
-//       Parent parent = loader.load();
-//       Scene2Controller controller = loader.getController();
-//       controller.restoreData(
-//          String.valueOf(sleepH),
-//          String.valueOf(studyH),
-//          String.valueOf(workH),
-//          String.valueOf(exerciseH),
-//          String.valueOf(leisureH));
-//       Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-//       window.setScene(new Scene(parent));
-//       window.show();   }   
-}
+
+   
